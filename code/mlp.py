@@ -81,7 +81,7 @@ if __name__=='__main__':
     parser.add_argument('--batch_size', dest='batch_size', type=int, default=64)
     parser.add_argument('--dataset', dest='dataset', type=str, default='tiny')
     parser.add_argument('--epochs', dest='epochs', type=int, default=15)
-    parser.add_argument('--init_lr', dest='init_lr', type=float, default=0.05)
+    parser.add_argument('--init_lr', dest='init_lr', type=float, default=0.5)
     parser.add_argument('--output_file', dest='output_file', type=str, default='output')
     params = vars(parser.parse_args())
     main(params)
