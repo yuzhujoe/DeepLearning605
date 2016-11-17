@@ -150,11 +150,11 @@ def main(params):
     dp = DataPreprocessor()
     data = dp.preprocess('%s.train'%dataset, '%s.valid'%dataset, '%s.test'%dataset)
     # minibatches
-    mb_train = MinibatchLoader(data.training, batch_size, max_len, 
+    mb_train = MinibatchLoader(data.training, batch_size, max_len,
            len(data.chardict), len(data.labeldict))
-    mb_valid = MinibatchLoader(data.validation, len(data.validation), max_len, 
+    mb_valid = MinibatchLoader(data.validation, len(data.validation), max_len,
            len(data.chardict), len(data.labeldict), shuffle=False)
-    mb_test = MinibatchLoader(data.test, len(data.test), max_len, 
+    mb_test = MinibatchLoader(data.test, len(data.test), max_len,
            len(data.chardict), len(data.labeldict), shuffle=False)
 
     validationSize = len(data.validation)
