@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea36085-032c-43a2-bac6-14ce0ba36974" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/mlp3.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automatic-reverse-mode.pdf" afterPath="$PROJECT_DIR$/automatic-reverse-mode.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/autograd.py" afterPath="$PROJECT_DIR$/code/autograd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/functions.py" afterPath="$PROJECT_DIR$/code/functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/lstm.py" afterPath="$PROJECT_DIR$/code/lstm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/xman.py" afterPath="$PROJECT_DIR$/code/xman.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="10605-f16-hw5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,14 +28,14 @@
     <favorites_list name="10605-f16-hw5" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4947707">
+    <splitter split-orientation="horizontal" split-proportion="0.6612628">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mlp.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mlp.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/mlp.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-45.74074">
-                  <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+                <state vertical-scroll-proportion="5.548387">
+                  <caret line="198" column="32" selection-start-line="198" selection-start-column="32" selection-end-line="198" selection-end-column="32" />
                   <folding>
                     <element signature="e#72#87#0" expanded="true" />
                   </folding>
@@ -48,11 +43,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/functions.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0365853">
-                  <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
                   <folding>
                     <element signature="e#24#42#0" expanded="true" />
                   </folding>
@@ -87,8 +82,8 @@
           <file leaf-file-name="lstm.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/lstm.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48387095">
-                  <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+                <state vertical-scroll-proportion="12.548388">
+                  <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
                   <folding>
                     <element signature="e#73#83#0" expanded="true" />
                   </folding>
@@ -118,9 +113,9 @@
         <option value="$PROJECT_DIR$/code/lstm2.py" />
         <option value="$PROJECT_DIR$/code/mlp2.py" />
         <option value="$PROJECT_DIR$/code/autograd.py" />
-        <option value="$PROJECT_DIR$/code/functions.py" />
         <option value="$PROJECT_DIR$/code/mlp.py" />
         <option value="$PROJECT_DIR$/code/lstm.py" />
+        <option value="$PROJECT_DIR$/code/functions.py" />
       </list>
     </option>
   </component>
@@ -745,30 +740,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        <state vertical-scroll-proportion="12.548388">
+          <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
           <folding>
             <element signature="e#73#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/mlp.py">
+    <entry file="file://$PROJECT_DIR$/code/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.74074">
-          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="e#72#87#0" expanded="true" />
+            <element signature="e#24#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/functions.py">
+    <entry file="file://$PROJECT_DIR$/code/mlp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0365853">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        <state vertical-scroll-proportion="5.548387">
+          <caret line="198" column="32" selection-start-line="198" selection-start-column="32" selection-end-line="198" selection-end-column="32" />
           <folding>
-            <element signature="e#24#42#0" expanded="true" />
+            <element signature="e#72#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
