@@ -123,7 +123,6 @@ class XManFunctions(object):
     @staticmethod
     def param(name=None, default=None):
         return Register(name=name, role='param',default=default)
-
     @staticmethod
     def add(a,b):
         return XManFunctions.registerDefinedByOperator('add',a,b)

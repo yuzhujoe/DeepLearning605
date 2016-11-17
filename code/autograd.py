@@ -7,6 +7,7 @@ class Autograd(object):
     def __init__(self,xman):
         self.xman = xman
 
+
     def eval(self,opseq,valueDict):
         """ Evaluate the function defined by the operation sequence, where
         valueDict is a dict holding the values of any
@@ -14,8 +15,14 @@ class Autograd(object):
         """
         for (dstName,funName,inputNames) in opseq:
             if TRACE_EVAL: print 'eval:',dstName,'=',funName,inputNames
+            # inputValues = []
+            # try:
             inputValues = map(lambda a:valueDict[a] if a in valueDict else a.default, inputNames)
-            fun = EVAL_FUNS[funName] 
+            # except AttributeError:
+            #     print "here"
+            #     print inputNames
+
+            fun = EVAL_FUNS[funName]
             result = fun(*inputValues)
             valueDict[dstName] = result
         return valueDict
@@ -35,6 +42,7 @@ class Autograd(object):
             values = [delta] + map(lambda a:valueDict[a], [dstName]+list(inputNames))
             for i in range(len(inputNames)):
                 if TRACE_BP: print ' -',dstName,'->',funName,'-> (...',inputNames[i],'...)'
+                # if funName == 'sliceSecondIdx': continue
                 result = (BP_FUNS[funName][i])(*values)
                 # increment a running sum of all the delta's that are
                 # pushed back to the i-th parameter, initializing the
